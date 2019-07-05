@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WillGrade</title>
+
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=cyrillic-ext,latin-ext"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap&subset=cyrillic-ext"
+          rel="stylesheet">
+    <!--endFonts-->
+    <!--Style-->
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/response.css" media="(min-width: 768px)" rel="stylesheet">
+    <!--end Style-->
+
+</head>
+<body>
+<div class="container">
+
+    <div class="slider">
+
+        <div class="slider__wrap wrap__small">
+            <div class="slider__inner">
+                <div class="slider__background js-move-slide"> <!--full img-->
+                    <img src="img/slider/1-full.jpg" alt="">
+                    <img src="img/slider/2-full.jpg" alt="">
+                    <img src="img/slider/3-full.jpg" alt="">
+                    <img src="img/slider/4-full.jpg" alt="">
+                </div>
+                <div class="slider__inner__img js-move-slide"> <!--cut img-->
+                    <img src="img/slider/1-min.jpg" alt="">
+                    <img src="img/slider/2-min.jpg" alt="">
+                    <img src="img/slider/3-min.jpg" alt="">
+                    <img src="img/slider/4-min.jpg" alt="">
+                </div>
+                <div class="slider__inner__text">
+                    <div class="title">СЕРВИC по подбору Недвижимости</div>
+                    <div class="description">
+                        <p>Инвестируйте в свое будущее безопасно вместе с <b>WILLgrade</b></p>
+                        <p><b>WILLgrade</b> - Надежный партнер в выборе недвижемости в любом городе России!</p>
+                    </div>
+                </div>
+                <div class="slider__inner__pagination">
+                    <div class="slider__inner__pagination__progress"></div>
+                </div>
+            </div>
+            <div class="slider__nav">
+                <!--ARROW ROUND-->
+                <div class="arround js-slider" data-move="1">
+                    <svg viewBox="0 0 36 36" class="arround__svg">
+                        <path class="arround__svg__stroke" d="M18 2.0845
+              a 15.9155 15.9155 0 0 1 0 31.831
+              a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+                        <path class="arround__svg__stroke__hover" stroke-dasharray="0, 100" d="M18 2.0845
+              a 15.9155 15.9155 0 0 1 0 31.831
+              a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+                    </svg>
+                    <div class="arround__arrow">
+                        <img src="img/icons/arrow.svg" alt="arrow">
+                    </div>
+                </div>
+                <!-- end ARROW ROUND-->
+                <!--ARROW ROUND-->
+                <div class="arround arround__left js-slider" data-move="-1">
+                    <svg viewBox="0 0 36 36" class="arround__svg">
+                        <path class="arround__svg__stroke" d="M18 2.0845
+              a 15.9155 15.9155 0 0 1 0 31.831
+              a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+                        <path class="arround__svg__stroke__hover" stroke-dasharray="0, 100" d="M18 2.0845
+              a 15.9155 15.9155 0 0 1 0 31.831
+              a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+                    </svg>
+                    <div class="arround__arrow">
+                        <img src="img/icons/arrow.svg" alt="arrow">
+                    </div>
+                </div>
+                <!-- end ARROW ROUND-->
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap">
+        <!--BUTTON TWO COLOR-->
+        <div class="btn">
+            <div class="btn__wrap">
+                <div class="btn__inner">
+                    Обычная кнопка
+                </div>
+            </div>
+        </div>
+        <div class="btn btn__half">
+            <div class="btn__wrap">
+                <div class="btn__inner">
+                    Двойная кнопка
+                </div>
+            </div>
+        </div>
+        <div class="btn active">
+            <div class="btn__wrap">
+                <div class="btn__inner">
+                    Активная кнопка
+                </div>
+            </div>
+        </div>
+        <!--end BUTTON TWO COLOR-->
+    </div>
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
